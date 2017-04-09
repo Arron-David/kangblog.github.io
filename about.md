@@ -9,11 +9,11 @@ date: 2017-03-01
 一个即将走出象牙塔的 Maker<a href="{{ site.baseurl }}/jianli.pdf" target="_blank"> 「我的简历」 </a>，喜欢研究一些新技术和关注一些最新的科技 
 
 <p>
-生于上个世纪九十年代内蒙古偏远山区的某个不知名的小村庄里,现居山城重庆的某个郊区...
+现定居于江苏南京
 <p>
 平时喜欢整理个人博客，逛逛技术论坛
 <p>
-了解一些 前端 基本概念和 Python 的简单用法
+
 
 
 
@@ -35,22 +35,8 @@ date: 2017-03-01
 
 <p>
 
-<h3> Ps </h3>   
-<p>
-如果你想搭建一个跟我一样的博客，可以看
-<a href="/2017/03/HowToCreateBlog/"> Jekyll+Github个人博客构建之路 </a>
-教程
-
-<p>
-
-有关于博客主题的建议和意见都可以提给我，让我们一起来打造一个精美的主题吧~ 
-
-<p> 
-
-博客源码在 <a target="_blank" href='https://github.com/MengZheK/kangblog.github.io/' target="_blank" >Github</a> 上，你的 Star 是我更新的动力，谢谢~
-
 <h3> 联系方式 </h3>   
-<p>邮箱：robotkang@foxmail.com   &emsp;微信：kang1390305137
+<p>邮箱：106731954@qq.com   &emsp;微信：18651892198
 <p>
 
 <a href="/lovekang/" style="color:#708090"  target="_blank"> <h5>Website Time</h5></a>  
