@@ -2,7 +2,7 @@
 layout: post
 title: "Docker简介以及Docker安装"
 date: 2017-04-10
-description: "HEXO配置，HEXO+Github，搭建自己的博客"
+description: "Docker简介以及Docker安装"
 tag: 博客 
 ---   
 
