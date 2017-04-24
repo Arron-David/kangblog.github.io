@@ -6,15 +6,19 @@ description: "Maven创建SpringMVC项目"
 tag: Maven SpringMVC 
 ---
 
-####创建新的maven工程
+#### 创建新的maven工程
+
 <img src="/images/posts/maven-springmvc/maven-springmvc-1.png" height="494" width="513"> 
 
-####选择项目目录（默认使用Eclipse的目录）
+#### 选择项目目录（默认使用Eclipse的目录）
+
 <img src="/images/posts/maven-springmvc/maven-springmvc-2.png" height="582" width="641"> 
 
-####搭建web工程，选择maven-archetype-webapp类型
+#### 搭建web工程，选择maven-archetype-webapp类型
+
 <img src="/images/posts/maven-springmvc/maven-springmvc-3.png" height="582" width="641">
 
-####填入mavne工程相关信息,点击“Finish”按钮
+#### 填入mavne工程相关信息,点击“Finish”按钮
+
 <img src="/images/posts/maven-springmvc/maven-springmvc-3.png" height="579" width="734">
 
