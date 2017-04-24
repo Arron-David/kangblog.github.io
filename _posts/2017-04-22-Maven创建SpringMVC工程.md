@@ -27,7 +27,7 @@ tag: Maven SpringMVC
 <img src="/images/posts/maven-springmvc/maven-springmvc-5.png" height="355" width="895">
 可以看到生成的index.jsp出现异常，异常信息为<span style='color:red'>The superclass "javax.servlet.http.HttpServlet" was not found on the Java Build path</span>.导致这个问题的原因是因为，没有引入servlet-api的包，后续会在pom.xml中添加。
 
-#### pom文件
+#### pom.xml
 
 ```xml 
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
@@ -76,4 +76,43 @@ tag: Maven SpringMVC
     <finalName>springmvc</finalName>
   </build>
 </project>
+```
+
+#### web.xml
+
+
+```xml
+<?xml version="1.0" encoding="UTF-8"?>  
+<web-app version="3.0" xmlns="http://java.sun.com/xml/ns/javaee"  
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"  
+    xsi:schemaLocation="http://java.sun.com/xml/ns/javaee   
+    http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd">
+	<display-name>Archetype Created Web Application</display-name>
+		<welcome-file-list>
+		<welcome-file>index.jsp</welcome-file>
+	</welcome-file-list>
+  
+	<listener>
+		<listener-class>org.springframework.web.util.Log4jConfigListener</listener-class>
+	</listener>
+  
+	<listener>
+		<listener-class>org.springframework.web.context.ContextLoaderListener</listener-class>
+	</listener>
+  
+	<servlet>
+		<servlet-name>springmvc</servlet-name>
+		<servlet-class>org.springframework.web.servlet.DispatcherServlet</servlet-class>
+		<init-param>
+			<param-name>contextConfigLocation</param-name>
+			<param-value>/WEB-INF/applicationContext.xml</param-value>
+		</init-param>
+		<load-on-startup>1</load-on-startup>
+	</servlet>
+  
+	<servlet-mapping>
+		<servlet-name>springmvc</servlet-name>
+		<url-pattern>/</url-pattern>
+	</servlet-mapping>
+</web-app>
 ```
