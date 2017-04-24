@@ -166,6 +166,6 @@ public class SpringMVCController {
 }
 ```
 #### 用tomcat9部署之后，浏览器访问http://localhost:8080/springmvc/进行测试，截图如下：
-<img src="/images/posts/maven-springmvc/maven-springmvc-5.png" height="219" width="511">
+<img src="/images/posts/maven-springmvc/maven-springmvc-6.png" height="219" width="511">
 
 到此为止，一个新的springmvc工程就算搭建完成，后面会继续讲解springmvc的注解。
