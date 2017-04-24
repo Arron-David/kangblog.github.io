@@ -3,7 +3,7 @@ title: 薛飞
 subtitle: 吃时间的虫子
 description: 欢迎来到我的个人网站~
 # 头像里面的标题
-avatarTitle: RobotKang
+avatarTitle: ArronXue
 # 头像里面的描述
 avatarDesc: Python/机器学习/嵌入式
 url: "http://xuefei1990.com"
@@ -12,16 +12,16 @@ url: "http://xuefei1990.com"
 comment:
     provider: duoshuo
     duoshuo:
-     short_name: robotkang
+     short_name: ArronXue
 
 # Social
 social:
-    weibo: 123456789
-    weixing: kang1390305137 
-    github: MengZheK
+    weibo: 18651892198
+    weixing: 18651892198 
+    github: Arron-David
     # twitter: 
-    mail: robotkang@foxmail.com
-    csdn: robotkang
+    mail: 1067031954@qq.com
+    csdn: 吃时间的虫子
 
 # 百度统计 
 # 使用博客模板请去掉或者更换 id 
