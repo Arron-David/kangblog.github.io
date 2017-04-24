@@ -27,6 +27,8 @@ tag: Maven SpringMVC
 <img src="/images/posts/maven-springmvc/maven-springmvc-5.png" height="355" width="895">
 可以看到生成的index.jsp出现异常，异常信息为<span style='color:red'>The superclass "javax.servlet.http.HttpServlet" was not found on the Java Build path</span>.导致这个问题的原因是因为，没有引入servlet-api的包，后续会在pom.xml中添加。
 
+#### pom文件
+
 ```xml 
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
